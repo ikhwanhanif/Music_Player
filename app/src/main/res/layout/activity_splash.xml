@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4169e1"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_music"
+
+        />
+    <TextView
+        android:id="@+id/textTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="Music Player"
+        android:textColor="@color/white"
+        android:layout_below="@id/imageIcon"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Ikhwan_hanif"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/textFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="From"
+        android:textColor="@color/white"
+        android:layout_above="@id/textDev"
+        />
+
+</RelativeLayout>
