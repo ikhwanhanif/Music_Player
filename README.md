@@ -1,6 +1,6 @@
 # Music Player
 
-![Music Player Preview](icon_music.png)
+![Icon](app/src/main/res/drawable/icon_music.png)
 
 ## Description
 Music Player Android App is a simple music player application that allows users to play music files stored on their device. The app scans the device's storage for music files and displays them in a list for the user to select and play.
