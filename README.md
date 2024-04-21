@@ -42,6 +42,6 @@ https://github.com/ikhwanhanif/Music_Player/assets/108711453/5129f5bd-78a7-46b0-
 Contributions and suggestions for improvement are always welcome. If you would like to contribute to this project, please create a pull request.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.txt).
 
 
